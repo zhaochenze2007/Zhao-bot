@@ -27,7 +27,10 @@ while True:
       feelings_list.append("idk")
       encouragement_list.append("It's alright u are not sure how u feel, do something fun like gaming or exercising!")
       counter += 1
-
+    if each_word == "bored":
+      feelings_list.append("bored")
+      encouragement_list.append("U should play go out and do something fun like playing sports and going out with friends!")
+      counter += 1
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
