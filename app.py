@@ -1,7 +1,7 @@
-print("Title of program: Encouragement bot")
+print("Title of program: Zhao bot")
 print()
 while True:
-  description = input("Could you describe how you feel in a sentence?")
+  description = input("Could you describe how you feel, it's alright if u feel not very well maybe i can help?")
 
   list_of_words = description.split()
 
@@ -33,7 +33,7 @@ while True:
       counter += 1
   if counter == 0:
     
-      output = "Sorry I don't really understand. Please use different words?"
+      output = "Sorry I don't really understand. Please use explain it differently to help be understand better."
 
   elif counter == 1:
     
